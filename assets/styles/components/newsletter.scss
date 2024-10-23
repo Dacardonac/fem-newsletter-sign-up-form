@@ -1,0 +1,33 @@
+.newsletter {
+  &__title {
+    font-size: 2rem;
+  }
+
+  &__description {
+    margin: 1rem;
+  }
+
+  &__features {
+    list-style: none;
+  }
+
+  &__feature {
+    margin-bottom: 16px;
+  }
+
+  &__icon-svg {
+    margin-right: 1rem;
+  }
+
+  &__input {
+    border: 1px solid var(--black);
+    padding: 1rem;
+  }
+
+  &__button {
+    background-color: var(--dark-slate-grey);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+}
