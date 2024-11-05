@@ -42,14 +42,20 @@
       border-radius: 10px;
       margin-bottom: 20px;
       padding: 1rem;
+      cursor: pointer;
     }
 
     &-button {
       background-color: var(--dark-slate-grey);
       color: var(--white);
       padding: 1rem;
-      border-radius: 1rem;
+      border-radius: 10px;
       font-weight: bold;
+      cursor: pointer;
+
+      &:hover {
+        background: linear-gradient(173deg, rgba(255,84,118,1) 14%, rgba(255,103,64,1) 98%);
+      }
     }
   }
 }
