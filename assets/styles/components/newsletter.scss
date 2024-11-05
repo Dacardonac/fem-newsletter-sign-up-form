@@ -1,10 +1,16 @@
 .newsletter {
+  width: 375px;
+
+  &__content {
+    padding: 20px;
+  }
   &__title {
+    margin: 20px 0 20px 0;
     font-size: 2rem;
   }
 
   &__description {
-    margin: 1rem;
+    margin-bottom: 20px;
   }
 
   &__features {
@@ -12,22 +18,38 @@
   }
 
   &__feature {
+    display: flex;
     margin-bottom: 16px;
   }
 
   &__icon-svg {
     margin-right: 1rem;
+
   }
 
-  &__input {
-    border: 1px solid var(--black);
-    padding: 1rem;
-  }
+  &__form {
+    display: flex;
+    flex-direction: column;
 
-  &__button {
-    background-color: var(--dark-slate-grey);
-    color: var(--white);
-    padding: 1rem;
-    border-radius: 1rem;
+    &-label {
+      font-size: 13px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    &-input {
+      border: 1px solid var(--grey);
+      border-radius: 10px;
+      margin-bottom: 20px;
+      padding: 1rem;
+    }
+
+    &-button {
+      background-color: var(--dark-slate-grey);
+      color: var(--white);
+      padding: 1rem;
+      border-radius: 1rem;
+      font-weight: bold;
+    }
   }
 }
