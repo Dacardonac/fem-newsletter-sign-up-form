@@ -45,6 +45,10 @@
       cursor: pointer;
     }
 
+    .error {
+      border: 1px solid red;
+    }
+
     &-button {
       background-color: var(--dark-slate-grey);
       color: var(--white);
