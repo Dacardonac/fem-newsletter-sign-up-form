@@ -12,6 +12,7 @@ This is a solution to the **[Newsletter sign-up form with success message challe
     - [The challenge](#the-challenge-)
     - [Screenshot](#screenshot-)
     - [Links](#links-)
+    - [How to use](#how-to-use-the-project-)
   - **[My process](#my-process-)**
     - [Built with](#built-with-)
     - [What I learned](#what-i-learned-)
@@ -42,6 +43,46 @@ This is a solution to the **[Newsletter sign-up form with success message challe
 - Solution URL: **[Frontend Mentor Solution 👨‍💻]()**
 - Live Site URL: **[Solution Deploy in Vercel 🚀]()**
 
+### How to Use the Project 💻
+
+To use this project, you need to follow these steps:
+
+1. **Clone the repository**:
+
+  ```bash
+  git clone https://github.com/Dacardonac/fem-newsletter-sign-up-form.git
+  ```
+
+2. **Navigate to the project directory**:
+
+  ```bash
+  cd newsletter-sign-up-form
+  ```
+
+3. **Install dependencies: Make sure you have Node.js installed, then run**:
+
+  ```bash
+  npm install
+  ```
+
+4. **Run the project: Start the development server with**:
+
+  ```bash
+  npm run dev
+  ```
+  This will start the project locally, typically accessible at `http://localhost:3000`.
+
+
+5. **Start the JSON server: To simulate a backend for data collection, run**:
+
+  ```bash
+  npx json-server --watch db.json --port 3001
+  ```
+  This will start the JSON server on `http://localhost:3001`.
+
+Now you can view the project in your browser and test its functionality, including form submissions that will be stored in `./assets/db/db.json`.
+
+
 ## My process 🎓
 
 ### Built with 🛠
@@ -51,6 +92,7 @@ This is a solution to the **[Newsletter sign-up form with success message challe
 - Mobile-first Workflow
 - JavaScript
 - Flexbox
+- json-server - Backend
 - [Vite](https://vitejs.dev/) - Frontend Tooling
 - [Sass/Scss](https://sass-lang.com/) - Modules
 - [BEM Methodology](https://en.bem.info/methodology/) - Nomenclature for Classes
