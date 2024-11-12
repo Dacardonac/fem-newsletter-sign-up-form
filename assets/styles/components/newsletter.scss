@@ -1,26 +1,26 @@
 .newsletter {
   color: var(--dark-slate-grey);
-  width: 375px;
+  width: 23.438rem;
   height: auto;
-  box-shadow: 0 15px 60px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1rem 3.75rem 0 rgba(0, 0, 0, 0.25);
 
   &__image {
-    width: 375px;
+    width: 23.438rem;
     height: auto;
   }
 
   &__content {
-    padding: 40px 24px;
+    padding: 2.5rem 1.5rem;
   }
   &__title {
-    margin-bottom: 24px;
-    font-size: 40px;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
     line-height: 100%;
     font-weight: bold;
   }
 
   &__description {
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     font-size: 1rem;
     line-height: 150%;
   }
@@ -31,7 +31,7 @@
 
   &__feature {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 
     &-text {
       font-size: 1rem;
@@ -47,21 +47,21 @@
   &__form {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 
     &-label {
-      font-size: 12px;
+      font-size: 0.75rem;
       line-height: 150%;
-      margin-bottom: 8px;
+      margin-bottom: 0.5rem;
       font-weight: bold;
     }
 
     &-input {
-      width: 327px;
-      height: 56px;
+      width: 20.438rem;
+      height: 3.5rem;
       border: 1px solid var(--grey);
-      border-radius: 8px;
-      margin-bottom: 24px;
+      border-radius: 0.5rem;
+      margin-bottom: 1.5rem;
       padding: 1rem;
       cursor: pointer;
     }
@@ -72,12 +72,12 @@
     }
 
     &-button {
-      width: 327px;
-      height: 56px;
+      width: 20.438rem;
+      height: 3.5rem;
       background-color: var(--dark-slate-grey);
       color: var(--white);
-      padding: 18px 46px 14px 48px;
-      border-radius: 8px;
+      padding: 1.125rem 2.875rem 0.875rem 3rem;
+      border-radius: 0.5rem;
       font-size: 1rem;
       line-height: 150%;
       font-weight: bold;
