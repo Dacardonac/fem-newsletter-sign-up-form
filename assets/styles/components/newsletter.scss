@@ -1,16 +1,28 @@
 .newsletter {
+  color: var(--dark-slate-grey);
   width: 375px;
+  height: auto;
+  box-shadow: 0 15px 60px 0 rgba(0, 0, 0, 0.25);
+
+  &__image {
+    width: 375px;
+    height: auto;
+  }
 
   &__content {
-    padding: 20px;
+    padding: 40px 24px;
   }
   &__title {
-    margin: 20px 0 20px 0;
-    font-size: 2rem;
+    margin-bottom: 24px;
+    font-size: 40px;
+    line-height: 100%;
+    font-weight: bold;
   }
 
   &__description {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
+    font-size: 1rem;
+    line-height: 150%;
   }
 
   &__features {
@@ -19,7 +31,12 @@
 
   &__feature {
     display: flex;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
+
+    &-text {
+      font-size: 1rem;
+      line-height: 150%;
+    }
   }
 
   &__icon-svg {
@@ -30,35 +47,45 @@
   &__form {
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
 
     &-label {
-      font-size: 13px;
-      margin-bottom: 10px;
+      font-size: 12px;
+      line-height: 150%;
+      margin-bottom: 8px;
       font-weight: bold;
     }
 
     &-input {
+      width: 327px;
+      height: 56px;
       border: 1px solid var(--grey);
-      border-radius: 10px;
-      margin-bottom: 20px;
+      border-radius: 8px;
+      margin-bottom: 24px;
       padding: 1rem;
       cursor: pointer;
     }
 
     .error {
-      border: 1px solid red;
+      border: 1px solid var(--vermellion);
+      background-color: var(--vermellion-light);
     }
 
     &-button {
+      width: 327px;
+      height: 56px;
       background-color: var(--dark-slate-grey);
       color: var(--white);
-      padding: 1rem;
-      border-radius: 10px;
+      padding: 18px 46px 14px 48px;
+      border-radius: 8px;
+      font-size: 1rem;
+      line-height: 150%;
       font-weight: bold;
       cursor: pointer;
 
-      &:hover {
-        background: linear-gradient(173deg, rgba(255,84,118,1) 14%, rgba(255,103,64,1) 98%);
+      &:hover, &:focus {
+        background: rgb(255,106,58);
+        background: linear-gradient(0deg, rgba(255,106,58,1) 0%, rgba(255,82,123,1) 100%);
       }
     }
   }

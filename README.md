@@ -87,15 +87,17 @@ Now you can view the project in your browser and test its functionality, includi
 
 ### Built with 🛠
 
-- Semantic HTML5 Markup
-- CSS3 Custom Properties
+- Semantic HTML5 Markup - Structure
+- CSS3 Custom Properties - Styles
 - Mobile-first Workflow
-- JavaScript
-- Flexbox
-- json-server - Backend
+- JavaScript - Programming Logic
+- Flexbox - Spaces and Alignments
+- Conventional Commits - Commit Specification
+- json-server - Backend (Data Base)
 - [Vite](https://vitejs.dev/) - Frontend Tooling
-- [Sass/Scss](https://sass-lang.com/) - Modules
+- [Sass/Scss](https://sass-lang.com/) - Modules and Styles
 - [BEM Methodology](https://en.bem.info/methodology/) - Nomenclature for Classes
+- Markdown - README.md file (Documentation)
 
 ### What I learned 🧠
 
@@ -104,7 +106,22 @@ With this project I learned, implemented and practiced Javascript, along with it
 **You can see an example below:**
 
 ``` JavaScript
+async function sendEmail(email) {
+  try {
+    const response = await fetch('http://localhost:3000/emails', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email })
+    });
 
+    if (!response.ok) throw new Error('Network response was not ok');
+
+    formInput.value = '';
+    showMessage();
+  } catch (error) {
+    console.error('Error:', error);
+  }
+}
 ```
 
 ### Continued development 🔎
