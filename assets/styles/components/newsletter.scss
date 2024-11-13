@@ -4,6 +4,10 @@
   height: auto;
   box-shadow: 0 1rem 3.75rem 0 rgba(0, 0, 0, 0.25);
 
+  &__hidden {
+    display: none;
+  }
+
   &__image {
     width: 23.438rem;
     height: auto;
@@ -57,7 +61,7 @@
     }
 
     &-input {
-      width: 20.438rem;
+      max-width: 20.438rem;
       height: 3.5rem;
       border: 1px solid var(--grey);
       border-radius: 0.5rem;
@@ -93,38 +97,42 @@
 
 @media (min-width: 1440px) {
   .newsletter {
-    max-width: 928px;
-    height: 641px;
+    max-width: 58rem;
+    height: 40.063rem;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    padding: 24px;
-    border-radius: 36px;
+    padding: 1.5rem;
+    border-radius: 2.25rem;
+
+    &__hidden {
+      display: none;
+    }
 
     &__image {
-      width: 400px;
+      width: 25rem;
       height: auto;
       border-radius: 1rem;
       user-select: none;
     }
 
     &__title {
-      font-size: 56px;
+      font-size: 3.5rem;
       line-height: 100%;
     }
 
     &__content {
-      padding: 73px 64px 74px 40px;
+      padding: 4.563rem 4rem 4.625rem 2.5rem;
     }
 
     &__form {
       &-button {
-        max-width: 376px;
-        padding: 18px 71px 14px 72px;
+        max-width: 23.5rem;
+        padding: 1.125rem 4.438rem 0.875rem 4.5rem;
       }
       &-input {
-        width: 376px;
+        max-width: 23.5rem;
       }
     }
   }

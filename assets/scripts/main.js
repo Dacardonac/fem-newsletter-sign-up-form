@@ -1,5 +1,6 @@
 const submitBtn = document.querySelector('.newsletter__form-button');
 const formInput = document.querySelector('.newsletter__form-input');
+const main = document.querySelector('main');
 const article = document.querySelector('.newsletter');
 
 // Función para mostrar mensajes al usuario
@@ -13,7 +14,8 @@ function showMessage() {
       Please open it and click the button inside to confirm your subscription.</p>
     <button class="success-message__btn">Dismiss message</button>
   `;
-  article.appendChild(messageContainer);
+  main.appendChild(messageContainer);
+  article.classList.add('newsletter__hidden');
 }
 
 // Validar la entrada del usuario
