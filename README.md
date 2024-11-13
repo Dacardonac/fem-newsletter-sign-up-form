@@ -10,7 +10,7 @@ This is a solution to the **[Newsletter sign-up form with success message challe
   - **[Table of contents](#table-of-contents-)**
   - **[Overview](#overview-)**
     - [The challenge](#the-challenge-)
-    - [Screenshot](#screenshot-)
+    - [Screenshot](#screenshots-)
     - [Links](#links-)
     - [How to use](#how-to-use-the-project-)
   - **[My process](#my-process-)**
@@ -38,6 +38,10 @@ This is a solution to the **[Newsletter sign-up form with success message challe
 Desktop
 
 **![Solution Desktop Screenshot](./public/screenshots/desktop-design-screenshot.png)**
+
+Laptop
+
+**![Solution Laptop Screenshot](./public/screenshots/laptop-design-screenshot.png)**
 
 Mobile
 
