@@ -73,6 +73,12 @@
     .error {
       border: 1px solid var(--vermellion);
       background-color: var(--vermellion-light);
+
+      &::placeholder {
+        font-size: 1rem;
+        line-height: 150%;
+        color: var(--vermellion);
+      }
     }
 
     &-button {
@@ -147,6 +153,11 @@
       height: auto;
       border-radius: 1rem;
       user-select: none;
+
+      &-svg {
+        width: 400px;
+        height: 593px;
+      }
     }
 
     &__title {
@@ -159,6 +170,8 @@
     }
 
     &__form {
+      display: flex;
+      align-items: baseline;
       &-button {
         max-width: 23.5rem;
         padding: 1.125rem 4.438rem 0.875rem 4.5rem;
