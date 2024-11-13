@@ -35,8 +35,13 @@ This is a solution to the **[Newsletter sign-up form with success message challe
 
 ### Screenshots 📷
 
-**![Solution Desktop Screenshot]()**
-**![Solution Mobile Screenshot]()**
+Desktop
+
+**![Solution Desktop Screenshot](./public/screenshots/desktop-design-screenshot.png)**
+
+Mobile
+
+**![Solution Mobile Screenshot](./public/screenshots/mobile-design-screenshot.png)**
 
 ### Links 📍
 
