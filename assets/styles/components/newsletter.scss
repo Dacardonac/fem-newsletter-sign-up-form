@@ -68,6 +68,11 @@
       margin-bottom: 1.5rem;
       padding: 1rem;
       cursor: pointer;
+
+      &::placeholder {
+        font-size: 1rem;
+        line-height: 150%;
+      }
     }
 
     .error {
@@ -75,8 +80,6 @@
       background-color: var(--vermellion-light);
 
       &::placeholder {
-        font-size: 1rem;
-        line-height: 150%;
         color: var(--vermellion);
       }
     }
