@@ -151,4 +151,6 @@ With this path, I want to continue learning more about **JavaScript**, **Respons
 
 I want to thank **[Jairovg](https://github.com/jairovg)** for the teachings and his help to complete this challenge in a good way and with good practices.
 
+**thank you frontend mentor for promoting learning and providing knowledge with these challenges**
+
 **Have fun building!** 🚀
