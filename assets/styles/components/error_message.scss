@@ -1,0 +1,13 @@
+.newsletter__form {
+  position: relative;
+}
+
+.error-message {
+  position: absolute;
+  right: 0;
+  color: var(--vermellion);
+  font-size: 0.875rem;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}

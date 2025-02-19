@@ -2,6 +2,11 @@ const submitBtn = document.querySelector('.newsletter__form-button');
 const formInput = document.querySelector('.newsletter__form-input');
 const main = document.querySelector('main');
 const article = document.querySelector('.newsletter');
+const errorMessage = document.createElement('p');
+errorMessage.classList.add('error-message');
+errorMessage.textContent = 'Valid email required';
+errorMessage.style.display = 'none';
+formInput.parentElement.appendChild(errorMessage);
 
 function showMessage() {
   const messageContainer = document.createElement('article');
@@ -52,9 +57,27 @@ function validateInput(input) {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   const isValid = emailRegex.test(input.trim());
 
-  formInput.classList.toggle('error', !isValid);
+  if (input === '') {
+    showError('Valid email required');
+    return false;
+  } else if (!isValid) {
+    showError('Valid email required');
+    return false;
+  }
 
-  return isValid;
+  hideError();
+  return true;
+}
+
+function showError(message) {
+  errorMessage.textContent = message;
+  errorMessage.style.display = 'block';
+  formInput.classList.add('error');
+}
+
+function hideError() {
+  errorMessage.style.display = 'none';
+  formInput.classList.remove('error');
 }
 
 if (submitBtn && formInput) {
@@ -69,6 +92,8 @@ if (submitBtn && formInput) {
 
     sendEmail(inputData);
   });
+
+  formInput.addEventListener('input', hideError);
 }
 
 async function sendEmail(email) {
