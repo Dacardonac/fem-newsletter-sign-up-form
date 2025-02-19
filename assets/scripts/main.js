@@ -23,7 +23,7 @@ function showMessage() {
     </span>
     <h2 class="success-message__title">Thanks for subscribing!</h2>
     <p class="success-message__description">
-      A confirmation email has been sent to ash@loremcompany.com.
+      A confirmation email has been sent to <strong>ash@loremcompany.com</strong>.
       Please open it and click the button inside to confirm your subscription.
     </p>
     <button class="success-message__btn">Dismiss message</button>

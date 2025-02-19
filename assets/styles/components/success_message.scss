@@ -1,0 +1,52 @@
+.success-message {
+  background-color: var(--white);
+  width: 504px;
+  height: auto;
+  padding: 48px 64px 64px 64px;
+  border-radius: 36px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  &__icon {
+    width: 64px;
+    height: 64px;
+  }
+
+  &__title {
+    font-size: 56px;
+    margin: 40px 0 24px 0;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: var(--dark-slate-grey);
+  }
+
+  &__description {
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0px;
+  }
+
+  &__btn {
+    width: 376px;
+    height: auto;
+    margin-top: 40px;
+    padding: 18px 124px 14px 125px;
+    border-radius: 8px;
+    background-color: var(--dark-slate-grey);
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      background: rgb(255, 106, 58);
+      background: linear-gradient(
+        0deg,
+        rgba(255, 106, 58, 1) 0%,
+        rgba(255, 82, 123, 1) 100%
+      );
+    }
+  }
+}
