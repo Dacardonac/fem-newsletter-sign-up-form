@@ -37,15 +37,23 @@ This is a solution to the **[Newsletter sign-up form with success message challe
 
 Desktop 🖥️
 
-**![Solution Desktop Screenshot](./public/screenshots/desktop-design-screenshot.png)**
+**![Solution Desktop Screenshot](./public/screenshots/desktop-design-screenshot.webp)**
+
+Desktop error 🖥️✖️
+
+**![Solution Desktop error Screenshot](./public/screenshots/desktop-error.webp)**
 
 Laptop 💻
 
-**![Solution Laptop Screenshot](./public/screenshots/laptop-design-screenshot.png)**
+**![Solution Laptop Screenshot](./public/screenshots/laptop-design-screenshot.webp)**
 
 Mobile 📱
 
-**![Solution Mobile Screenshot](./public/screenshots/mobile-design-screenshot.png)**
+**![Solution Mobile Screenshot](./public/screenshots/mobile-design-screenshot.webp)**
+
+Success Message ✅
+
+**![Solution Success Message Screenshot](./public/screenshots/success-message.webp)**
 
 ### Links 📍
 
